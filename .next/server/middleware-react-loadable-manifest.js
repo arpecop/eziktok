@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/forms/inputs/AllForms.tsx -> /components/forms/inputs/Upload":{id:36,files:["static/chunks/d6a9949e.3e9de1bfec1f3543.js","static/chunks/131.d0acdcb3059a29b1.js","static/chunks/36.0227e1d16309ef82.js"]},"index.tsx -> /components/Notifications":{id:5159,files:["static/chunks/159.150c99051ab62a42.js"]}};

@@ -1,0 +1,12 @@
+{
+  "apexskier.eslint.config.eslintConfigPath" : "tsconfig.json",
+  "apexskier.eslint.config.eslintPath" : "\/usr\/local\/bin\/eslint",
+  "apexskier.eslint.config.fixOnSave" : "Enable",
+  "editor.default_syntax" : "tsx",
+  "index.ignored_file_patterns" : [
+    "public"
+  ],
+  "workspace.color" : 4,
+  "workspace.preview_type" : "custom",
+  "workspace.preview_url" : "https:\/\/localhost:3000\/"
+}

@@ -1,0 +1,7 @@
+{
+  "identifier" : "668D68C0-8A42-49B3-A60D-D9B7A9F98DCB",
+  "localPath" : "public\/migrate",
+  "remotePath" : "\/home\/ubuntu\/node",
+  "server" : "ec2",
+  "usesPublishing" : false
+}
