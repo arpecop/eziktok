@@ -1,0 +1,46 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify374d17b12d2c4-staging-233047-authRole",
+      "UnauthRoleArn": "arn:aws:iam::445820032868:role/amplify-amplify374d17b12d2c4-staging-233047-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::445820032868:role/amplify-amplify374d17b12d2c4-staging-233047-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-amplify374d17b12d2c4-staging-233047-deployment",
+      "UnauthRoleName": "amplify-amplify374d17b12d2c4-staging-233047-unauthRole",
+      "StackName": "amplify-amplify374d17b12d2c4-staging-233047",
+      "StackId": "arn:aws:cloudformation:eu-west-1:445820032868:stack/amplify-amplify374d17b12d2c4-staging-233047/2c234090-7b3e-11ed-9e74-026badd7a689",
+      "AmplifyAppId": "d1cxwb0a7kbjya"
+    },
+    "categories": {
+      "auth": {
+        "klounv2": {
+          "userPoolId": "eu-west-1_R2tLVDqB0",
+          "userPoolName": "rudixopspool",
+          "webClientId": "5k2d69fvijvdmpcml3a510eeqd",
+          "nativeClientId": "5k2d69fvijvdmpcml3a510eeqd",
+          "identityPoolId": "eu-west-1:2f394adb-6fe3-42e6-9cfb-e552b456a0a8",
+          "identityPoolName": "rudixops",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::445820032868:role/Cognito_rudixopsAuth_Role",
+          "authRoleName": "Cognito_rudixopsAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::445820032868:role/Cognito_rudixopsUnauth_Role",
+          "unauthRoleName": "Cognito_rudixopsUnauth_Role",
+          "googleClientId": "505450551021-vu1amcbd0ls2gokvssqqh5k1gdq3s55q.apps.googleusercontent.com"
+        }
+      },
+      "storage": {
+        "klounv20b49126e": {
+          "bucketName": "eziktokfriendly114941-staging",
+          "region": "eu-west-1"
+        },
+        "klounv2e253b6da": {
+          "bucketName": "eziktokfriendly114941-staging",
+          "region": "eu-west-1"
+        }
+      },
+      "api": {
+        "klounv2": {}
+      }
+    }
+  }
+}

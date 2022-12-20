@@ -1,0 +1,72 @@
+type Ad @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  title: String!
+  type: String!
+  cat: String!
+  condition: Condition
+  currency: Curr
+  data: AWSJSON
+  date: String
+  location: String
+  description: String
+  images: [String]
+  parrent: [String]
+  phone: Int
+  physical: Boolean
+  price: Int
+  query: String
+  slug: String
+  source: String
+  createdAt: String
+  uid: String
+}
+
+type Joke @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  nid: Int
+  cat: String
+  joke: String
+}
+
+type News @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  title: String
+  content: AWSJSON
+  image: String
+  link: String
+  nid: Int
+}
+
+type Twusers @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  user: String
+  letter: String
+  nid: Int
+}
+
+type Movies @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  title: String
+  slug: String
+  year: Int
+  description: String
+  image: String
+}
+
+type Companies @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  name: String
+  location: String
+  zip: Int
+}
+
+enum Condition {
+  NEW
+  PARTS
+  USED
+}
+
+enum Curr {
+  EUR
+  LV
+}

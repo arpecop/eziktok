@@ -1,0 +1,8 @@
+next.config.js
+src
+node_modules
+src/old
+
+src/models
+
+amplify-codegen-temp/models
